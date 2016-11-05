@@ -187,7 +187,7 @@ Project_BINARY_DIR:STATIC=D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativ
 Project_SOURCE_DIR:STATIC=D:/bruce_priv/workspace/as/HelloJNI/app/src/main/cpp
 
 //Dependencies for the target
-hello-jni_LIB_DEPENDS:STATIC=general;android;general;log;
+hellojni_LIB_DEPENDS:STATIC=general;android;general;log;
 
 
 ########################

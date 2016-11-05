@@ -14,8 +14,14 @@
  * limitations under the License.
  *
  */
-#include <string.h>
 #include <jni.h>
+#include <android/log.h>
+
+
+#define  LOG_TAG    "bruce-native-dev"
+#define  LOGI(...)  __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+#define LOGE(...)  __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+
 
 /* This is a trivial JNI example where we use a native method
  * to return a new VM String. See the corresponding Java source
@@ -78,7 +84,6 @@ Java_com_example_hellojni_HelloJni_getFromJNI( JNIEnv* env,
 #if defined(__ARM_PCS_VFP)
 #define ABI "armeabi-v7a (hard-float)"
 #else
-#define ABI "armeabi-v7a"
 #endif
 #endif
 #else
@@ -98,8 +103,9 @@ Java_com_example_hellojni_HelloJni_getFromJNI( JNIEnv* env,
 #define ABI "unknown"
 #endif
 
-
+    LOGI("hello bruce info");
+    LOGE("hello bruce error");
     //return (*env)->NewStringUTF(env, "Hello from JNI , I'm Bruce !  " + a);
-    return a+b;
+    return a+b+b+a;
 
 }

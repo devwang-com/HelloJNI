@@ -1,3 +1,3 @@
-D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativeBuild/cmake/universalRelease/mips/CMakeFiles/hello-jni.dir
+D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativeBuild/cmake/universalRelease/mips/CMakeFiles/hellojni.dir
 D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativeBuild/cmake/universalRelease/mips/CMakeFiles/edit_cache.dir
 D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativeBuild/cmake/universalRelease/mips/CMakeFiles/rebuild_cache.dir

@@ -12,21 +12,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\pre-dexed\arm7\debug\com.android.support-appcompat-v7-23.4.0_fc8795c5074311dcdc5a2cfdbdf0c3d006060b40.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\pre-dexed\arm7\debug\com.android.support-support-vector-drawable-23.4.0_bf86348ab615fe663d0d531645e5403b16e48477.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\pre-dexed\arm7\debug\com.android.support-support-v4-23.4.0_e45e09156024d45205fb83094a42392287cf6486.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\pre-dexed\arm7\debug\com.android.support-appcompat-v7-23.4.0_fc8795c5074311dcdc5a2cfdbdf0c3d006060b40.jar" />
     </item>
     <item
         is-multidex="false"
@@ -63,15 +72,6 @@
         revision="25.0.0"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
         <dex dex="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\pre-dexed\arm7\debug\internal_impl-23.4.0_74e8107bb4520d029561542660518e042c8de2bc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\bruce_priv\workspace\as\HelloJNI\app\build\intermediates\pre-dexed\arm7\debug\com.android.support-support-v4-23.4.0_e45e09156024d45205fb83094a42392287cf6486.jar" />
     </item>
 
 </items>

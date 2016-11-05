@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__hello-jni
+rule C_COMPILER__hellojni
   depfile = $DEP_FILE
   deps = gcc
   command = D:\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  -target i686-none-linux-android -gcc-toolchain D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/platforms/android-15/arch-x86 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $IN_ABS
@@ -24,7 +24,7 @@ rule C_COMPILER__hello-jni
 #############################################
 # Rule for linking C shared library.
 
-rule C_SHARED_LIBRARY_LINKER__hello-jni
+rule C_SHARED_LIBRARY_LINKER__hellojni
   command = cmd.exe /C "$PRE_LINK && D:\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe  -target i686-none-linux-android -gcc-toolchain D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/platforms/android-15/arch-x86 -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT

@@ -29,8 +29,9 @@ public class HelloJni extends AppCompatActivity {
          * function.
          */
         TextView tv = new TextView(this);
+        tv.setText( stringFromJNI() );
         tv.setText( "Hello Bruce !" + getFromJNI(1,2) );
-        //tv.setText( stringFromJNI() );
+        System.out.println("====BRUCE====>>:"+getFromJNI(2,3));
         setContentView(tv);
     }
     /* A native method that is implemented by the
@@ -60,6 +61,6 @@ public class HelloJni extends AppCompatActivity {
      * installation time by the package manager.
      */
     static {
-        System.loadLibrary("hello-jni");
+        System.loadLibrary("hellojni");
     }
 }

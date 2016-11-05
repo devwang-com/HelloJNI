@@ -8,22 +8,22 @@
 	],
 	"libraries" : 
 	{
-		"hello-jni-Debug-arm64-v8a" : 
+		"hellojni-Debug-arm64-v8a" : 
 		{
 			"abi" : "arm64-v8a",
-			"artifactName" : "hello-jni",
-			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\bruce_priv\\workspace\\as\\HelloJNI\\app\\.externalNativeBuild\\cmake\\arm8Debug\\arm64-v8a --target hello-jni",
+			"artifactName" : "hellojni",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\bruce_priv\\workspace\\as\\HelloJNI\\app\\.externalNativeBuild\\cmake\\arm8Debug\\arm64-v8a --target hellojni",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64 -Dhello_jni_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64 -Dhellojni_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
 					"src" : "D:/bruce_priv/workspace/as/HelloJNI/app/src/main/cpp/hello-jni.c",
 					"workingDirectory" : "D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativeBuild/cmake/arm8Debug/arm64-v8a"
 				}
 			],
-			"output" : "D:/bruce_priv/workspace/as/HelloJNI/app/build/intermediates/cmake/arm8/debug/obj/arm64-v8a/libhello-jni.so",
+			"output" : "D:/bruce_priv/workspace/as/HelloJNI/app/build/intermediates/cmake/arm8/debug/obj/arm64-v8a/libhellojni.so",
 			"toolchain" : "423535169"
 		}
 	},

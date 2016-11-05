@@ -19,6 +19,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            ndk{
+                moduleName "moduleName"
+                ldLibs "log"//实现__android_log_print
+                abiFilters "armeabi", "armeabi-v7a", "x86" , "x86_64"
+            }
         }
     }
     externalNativeBuild {
@@ -28,42 +34,7 @@ android {
         }
     }
     productFlavors {
-        arm7 {
-            // in the future, ndk.abiFilter might also work
-            ndk {
-                abiFilter 'armeabi-v7a'
-            }
-        }
-        arm8 {
-            ndk {
-                abiFilters 'arm64-v8a'
-            }
-        }
-        arm {
-            ndk {
-                abiFilter 'armeabi'
-            }
-        }
-        x86 {
-            ndk {
-                abiFilter 'x86'
-            }
-        }
-        x86_64 {
-            ndk {
-                abiFilter 'x86_64'
-            }
-        }
-        mips {
-            ndk {
-                abiFilters 'mips', 'mips64'
-            }
-        }
-        universal {
-            ndk {
-                abiFilters 'mips', 'mips64', 'x86', 'x86_64'
-            }
-        }
+
     }
 }
 

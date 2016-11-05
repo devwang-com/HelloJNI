@@ -8,22 +8,22 @@
 	],
 	"libraries" : 
 	{
-		"hello-jni-Release-mips64" : 
+		"hellojni-Release-mips64" : 
 		{
 			"abi" : "mips64",
-			"artifactName" : "hello-jni",
-			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\bruce_priv\\workspace\\as\\HelloJNI\\app\\.externalNativeBuild\\cmake\\mipsRelease\\mips64 --target hello-jni",
+			"artifactName" : "hellojni",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\bruce_priv\\workspace\\as\\HelloJNI\\app\\.externalNativeBuild\\cmake\\mipsRelease\\mips64 --target hellojni",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/platforms/android-21/arch-mips64 -Dhello_jni_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/platforms/android-21/arch-mips64 -Dhellojni_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
 					"src" : "D:/bruce_priv/workspace/as/HelloJNI/app/src/main/cpp/hello-jni.c",
 					"workingDirectory" : "D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativeBuild/cmake/mipsRelease/mips64"
 				}
 			],
-			"output" : "D:/bruce_priv/workspace/as/HelloJNI/app/build/intermediates/cmake/mips/release/obj/mips64/libhello-jni.so",
+			"output" : "D:/bruce_priv/workspace/as/HelloJNI/app/build/intermediates/cmake/mips/release/obj/mips64/libhellojni.so",
 			"toolchain" : "423535169"
 		}
 	},
