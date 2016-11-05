@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/bruce_priv/workspace/as/HelloJNI/app/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\bruce_priv\\workspace\\as\\HelloJNI\\app\\.externalNativeBuild\\cmake\\universalDebug\\mips --target clean"
+	],
+	"libraries" : 
+	{
+		"hello-jni-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "hello-jni",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\bruce_priv\\workspace\\as\\HelloJNI\\app\\.externalNativeBuild\\cmake\\universalDebug\\mips --target hello-jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dhello_jni_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/bruce_priv/workspace/as/HelloJNI/app/src/main/cpp/hello-jni.c",
+					"workingDirectory" : "D:/bruce_priv/workspace/as/HelloJNI/app/.externalNativeBuild/cmake/universalDebug/mips"
+				}
+			],
+			"output" : "D:/bruce_priv/workspace/as/HelloJNI/app/build/intermediates/cmake/universal/debug/obj/mips/libhello-jni.so",
+			"toolchain" : "423535169"
+		}
+	},
+	"toolchains" : 
+	{
+		"423535169" : 
+		{
+			"cCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
