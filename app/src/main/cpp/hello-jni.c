@@ -30,7 +30,7 @@
  *   hello-jni/app/src/main/java/com/example/hellojni/HelloJni.java
  */
 JNIEXPORT jstring JNICALL
-Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
+Java_com_devwang_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
                                                   jobject thiz )
 {
 #if defined(__arm__)
@@ -69,7 +69,7 @@ Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
 }
 
 JNIEXPORT jint JNICALL
-Java_com_example_hellojni_HelloJni_getFromJNI( JNIEnv* env,
+Java_com_devwang_hellojni_HelloJni_getFromJNI( JNIEnv* env,
                                                   jobject thiz,jint a,jint b )
 {
 #if defined(__arm__)
