@@ -34,7 +34,13 @@ public class HelloJni extends AppCompatActivity {
         TextView tv = new TextView(this);
         tv.setText(stringFromJNI());
         tv.setText("Hello Bruce !" + getFromJNI(1, 2));
-        tv.setText("Hello Bruce !\n"
+        tv.setText(""
+                +"Author: Bruce.Wang\n"
+                +"Date:2016-01-08\n"
+                +"Email:devwang.com@gmail.com\n"
+                +"Site:http://www.devwang.com\n"
+                +"Name:“study jni”\n"
+                +"/*****************/\n"
                 + "整数相加：" + addInt(1, 2) + "\n"
                 + "实数相乘：" + mulDouble(1.2, 5.0) + "\n"
                 + "实数大小：" + bigger(2, 1) + "\n"

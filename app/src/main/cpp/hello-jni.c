@@ -132,7 +132,7 @@ Java_com_devwang_hellojni_HelloJni_addString( JNIEnv* env,
     return (*env)->NewStringUTF(env,strcat(pA,pB));//输出a+b
 }
 
-JNIEXPORT jstring  JNICALL
+JNIEXPORT jintArray JNICALL
 Java_com_devwang_hellojni_HelloJni_intArray( JNIEnv* env,
                                               jobject thiz,jintArray a )
 {
@@ -142,18 +142,17 @@ Java_com_devwang_hellojni_HelloJni_intArray( JNIEnv* env,
     jint * pA = (*env)->GetIntArrayElements(env,a, NULL); //获取a的指针
     jintArray b = (*env)->NewIntArray(env,N); //创建数组b，长度为N
     jint * pB = (*env)->GetIntArrayElements(env,b, NULL); //获取b的指针
-    for (int i = 0; i < N; i++) pB = pA + 10; //把a的每个元素加10，赋值给b中对应的元素
-    /*//另一种方法
-    env->SetIntArrayRegion(b, 0, N, pA); //b是a的复制品
+    //for (int i = 0; i < N; i++) pB = pA + 10; //把a的每个元素加10，赋值给b中对应的元素
+    //另一种方法
+    (*env)->SetIntArrayRegion(env,b, 0, N, pA); //b是a的复制品
     for (int j = 0; j < N; j++) pB[j] += 10; //b的每个元素加10
-    */
     (*env)->ReleaseIntArrayElements(env,a, pA, 0); //释放a的内存
     (*env)->ReleaseIntArrayElements(env,b, pB, 0); //释放b的内存
     LOGE("hello bruce error ===>> intArray()");
     return b; //输出b
 }
 
-JNIEXPORT jstring  JNICALL
+JNIEXPORT jdoubleArray  JNICALL
 Java_com_devwang_hellojni_HelloJni_doubleArray( JNIEnv* env,
                                               jobject thiz,jdoubleArray a )
 {
@@ -175,7 +174,7 @@ Java_com_devwang_hellojni_HelloJni_doubleArray( JNIEnv* env,
 
 }
 
-JNIEXPORT jstring  JNICALL
+JNIEXPORT jobjectArray  JNICALL
 Java_com_devwang_hellojni_HelloJni_stringArray( JNIEnv* env,
                                               jobject thiz,jobjectArray a )
 {
